@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nevnet" name="Nevnet Repository" version="0.2" provider-name="nevrion">
+<addon id="repository.nevnet" name="Nevnet Repository" version="0.3" provider-name="nevrion">
     <extension point="xbmc.addon.repository" name="Nevnet Repository">
         <dir>
 			<info compressed="false">https://raw.githubusercontent.com/nevrion/repository.nevnet/main/repo/zips/addons.xml</info>
