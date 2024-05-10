@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- Addon Konfigurationsdatei für das Nevnet Repository -->
-<addon id="repository.nevnet" name="Nevnet Repository" version="0.5.2" provider-name="nevrion">
+<addon id="repository.nevnet" name="Nevnet Repository" version="0.5.3" provider-name="nevrion">
     <!-- Erforderliche Addons und Versionen -->
     <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.addon" version="21.0.0"/>
     </requires>
     
     <!-- Repository-Informationen -->
