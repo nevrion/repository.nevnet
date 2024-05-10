@@ -141,10 +141,10 @@ Emby for Kodi 是享受令人难以置信的 Kodi 播放引擎与 Emby 集中式
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="repository.nevnet" name="Nevnet Repository" version="0.5.2" provider-name="nevrion">
+</addon><addon id="repository.nevnet" name="Nevnet Repository" version="0.5.3" provider-name="nevrion">
     
     <requires>
-        <import addon="xbmc.addon" version="12.0.0" />
+        <import addon="xbmc.addon" version="21.0.0" />
     </requires>
     
     
