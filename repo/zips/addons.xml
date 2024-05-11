@@ -116,6 +116,47 @@ Emby for Kodi 是享受令人难以置信的 Kodi 播放引擎与 Emby 集中式
             <screenshot>resources/screenshot4.jpg</screenshot>
         </assets>
     </extension>
+</addon><addon id="repository.beta.emby.kodi" name="Kodi Emby Beta Addons" version="1.0.10" provider-name="">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0" />
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Beta Addons Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="19.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/</datadir>
+		</dir>
+		<dir minversion="18.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/</datadir>
+		</dir>
+		<dir minversion="17.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/</datadir>
+		</dir>
+		<dir minversion="16.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains beta add-ons for Emby related support</description>
+		<disclaimer />
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon><addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
@@ -157,6 +198,43 @@ Emby for Kodi 是享受令人难以置信的 Kodi 播放引擎与 Emby 集中式
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
+    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
+        </dir>
+		<dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0" maxversion="19.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="19.9.1" maxversion="20.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
+        </dir>
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>jurialmunkey Alpha Repository</summary>
+        <description>A repository for alpha releases of jurialmunkey's skins.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon><addon id="repository.nevnet" name="Nevnet Repository" version="0.5.3" provider-name="nevrion">
     
     <requires>
@@ -191,4 +269,30 @@ Emby for Kodi 是享受令人难以置信的 Kodi 播放引擎与 Emby 集中式
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon><addon id="repository.titan.bingie.mod" name="Titan BINGIE MOD Repository" provider-name="AchillesPunks, Matke" version="2.0.1">
+	<extension point="xbmc.addon.repository" name="Titan BINGIE MOD Repository">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0" />
+		</requires>
+		<dir minversion="20.0.0" maxversion="20.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/</datadir>
+		</dir>
+		<dir minversion="20.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Titan BINGIE MOD Repository</summary>
+        <description lang="en">A repository for Titan BINGIE MOD skin.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
 </addon></addons>
